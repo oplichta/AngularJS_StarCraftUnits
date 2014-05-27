@@ -1,0 +1,16 @@
+[
+    {
+        "age": 0,
+        "id": "zergling",
+        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "name": "Zergling",
+        "snippet": "Its basic superfast unit from swarm."
+    },
+    {
+        "age": 1,
+        "id": "roach",
+        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "name": "Roach",
+        "snippet": "Its superpowerful and awsame ;)"
+    }
+]

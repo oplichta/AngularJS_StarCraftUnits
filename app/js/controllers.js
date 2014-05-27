@@ -4,10 +4,10 @@
 
 var starcraftControllers = angular.module('starcraftControllers', []);
 
-starcraftControllers.controller('UnitListCtrl', ['$scope', 'Unit',
-  function($scope, Unit) {
-    $scope.Unit= Unit.query();
-    $scope.orderProp = 'name';
+starcraftControllers.controller('UnitListCtrl', ['$scope', 'Units',
+  function($scope, Units) {
+    $scope.units= Units.query();
+    $scope.orderProp = 'age';
   }]);
 
 starcraftControllers.controller('UnitDetailCtrl', ['$scope', '$routeParams', 'Unit',
