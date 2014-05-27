@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "Its fast",
+    "about": {
+        "race": "Zerg",
+        "type": "unit"
+    },
+    "lifepoints": "35",
+    "cost":{
+      "minerals": "50",
+      "vespan": "0"
+    },
+    "id": "zergling",
+    "images": ["img/starcraft/units/zerg/zergling.jpg"],
+    "name": "Zergling"
+}

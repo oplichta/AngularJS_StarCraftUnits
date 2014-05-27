@@ -2,7 +2,7 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('starcraftApp', [
+var starcraftApp = angular.module('starcraftApp', [
   'ngRoute',
   'starcraftAnimations',
   'starcraftControllers',
@@ -10,7 +10,7 @@ var phonecatApp = angular.module('starcraftApp', [
   'starcraftServices'
 ]);
 
-phonecatApp.config(['$routeProvider',
+starcraftApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/units', {
