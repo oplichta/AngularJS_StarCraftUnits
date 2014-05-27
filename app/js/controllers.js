@@ -9,6 +9,22 @@ starcraftControllers.controller('UnitListCtrl', ['$scope', 'Units',
     $scope.units= Units.query();
     $scope.orderProp = 'age';
   }]);
+starcraftControllers.controller('UnitListCtrlZerg', ['$scope', 'Units',
+    function($scope, Units) {
+      $scope.units= Units.query();
+      $scope.orderProp = 'age';
+  }]);
+starcraftControllers.controller('UnitListCtrlProtoss', ['$scope', 'Units',
+    function($scope, Units) {
+      $scope.units= Units.query();
+      $scope.orderProp = 'age';
+  }]);
+starcraftControllers.controller('UnitListCtrlTerran', ['$scope', 'Units',
+    function($scope, Units) {
+      $scope.units= Units.query();
+      $scope.orderProp = 'age';
+  }]);
+
 
 starcraftControllers.controller('UnitDetailCtrl', ['$scope', '$routeParams', 'Units',
   function($scope, $routeParams, Units) {

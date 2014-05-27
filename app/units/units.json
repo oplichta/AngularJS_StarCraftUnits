@@ -12,5 +12,26 @@
         "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
         "name": "Roach",
         "snippet": "Its superpowerful and awsame ;)"
+    },
+    {
+        "age": 2,
+        "id": "hydralisk",
+        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "name": "Hydralisk",
+        "snippet": "Its superpowerful and awsame ;)"
+    },
+    {
+        "age": 3,
+        "id": "infestor",
+        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "name": "Infestor",
+        "snippet": "Its superpowerful and awsame ;)"
+    },
+    {
+        "age": 4,
+        "id": "queen",
+        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "name": "Queen",
+        "snippet": "Its mother of zergs"
     }
 ]

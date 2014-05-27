@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "It can shoot up",
+    "about": {
+        "race": "Zerg",
+        "type": "unit"
+    },
+    "lifepoints": "80",
+    "cost":{
+      "minerals": "100",
+      "vespan": "50"
+    },
+    "id": "hydralisk",
+    "images": ["img/starcraft/units/zerg/roach.jpg"],
+    "name": "Hydralisk"
+}
