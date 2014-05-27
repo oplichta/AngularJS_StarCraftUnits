@@ -2,39 +2,26 @@
 
 /* App Module */
 
-var bestgameApp = angular.module('bestgameApp', [
-  'ngRoute'
+var phonecatApp = angular.module('starcraftApp', [
+  'ngRoute',
+  'starcraftAnimations',
+  'starcraftControllers',
+  'starcraftFilters',
+  'starcraftServices'
 ]);
 
-bestgameApp = angular.module('bestgameApp', [
-  'ngRoute'
-]);
-
-bestgameApp.factory('zmienna', function() {
-	return {wartosc:"poczatkowa"};
-});
-
-
-bestgameApp.config(['$routeProvider',
+phonecatApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/witaj', {
-        templateUrl: 'partials/powitanie.html',
-        controller: 'WitajCtrl'
+      when('/units', {
+        templateUrl: 'partials/unit-list.html',
+        controller: 'UnitListCtrl'
       }).
-      when('/ludzie', {
-        templateUrl: 'partials/ludzie.html',
-        controller: 'LudzieCtrl'
-      }).
-      when('/protosi', {
-        templateUrl: 'partials/protosi.html',
-        controller: 'ProtosiCtrl'
-      }).
-      when('/zergi', {
-        templateUrl: 'partials/zergi.html',
-        controller: 'ZergiCtrl'
+      when('/units/:unitId', {
+        templateUrl: 'partials/unit-detail.html',
+        controller: 'UnitDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/witaj'
+        redirectTo: '/units'
       });
   }]);

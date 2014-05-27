@@ -2,30 +2,21 @@
 
 /* Controllers */
 
+var starcraftControllers = angular.module('starcraftControllers', []);
 
-bestgameApp.controller('WitajCtrl', function ($scope) {
-});
+starcraftControllers.controller('UnitListCtrl', ['$scope', 'Unit',
+  function($scope, Unit) {
+    $scope.Unit= Unit.query();
+    $scope.orderProp = 'age';
+  }]);
 
-bestgameApp.controller('LudzieCtrl', ['$scope','zmienna',function ($scope,zmienna) {
-	$scope.liczba = zmienna.wartosc;
-	console.log("byla liczba: " + $scope.liczba);
-    $scope.$watch('liczba', function(newValue, oldValue) {
-     console.log("Zmiana " + oldValue + " na " + newValue);
-     zmienna.wartosc = newValue;
-  });	
-	
-}]);
+starcraftControllers.controller('UnitDetailCtrl', ['$scope', '$routeParams', 'Phone',
+  function($scope, $routeParams, Phone) {
+    $scope.unit = Unit.get({unitId: $routeParams.unitId}, function(unit) {
+      $scope.mainImageUrl = Unit.images[0];
+    });
 
-
-bestgameApp.controller('ProtosiCtrl', function ($scope,$http) {
-	$scope.pobrana = "czekam";
-	$http.get('populacja').success(function(data) {
-	  console.log(data);
-	  $scope.pobrana = data.wartosc;
-	});
-});
-
-bestgameApp.controller('ZergiCtrl', function ($scope) {
-});
-
-
+    $scope.setImage = function(imageUrl) {
+      $scope.mainImageUrl = imageUrl;
+    }
+  }]);

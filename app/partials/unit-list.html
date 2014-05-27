@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Age</option>
+        <option value="race">Race</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="units">
+        <li ng-repeat="unit in units | filter:query | orderBy:orderProp"
+            class="thumbnail unit-listing">
+          <a href="#/units/{{unit.id}}" class="thumb"><img ng-src="{{unit.imageUrl}}"></a>
+          <a href="#/units/{{unit.id}}">{{unit.name}}</a>
+          <p>{{unit.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
