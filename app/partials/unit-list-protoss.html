@@ -13,9 +13,12 @@
     </div>
     <div class="col-md-10">
       <!--Body content-->
-<div>protoss</div>
+      <a href="#/units">Witaj</a>
+      <a href="#/units/zerg">Zergi</a>
+      <b><a href="#/units/protoss">Protosi</a></b>
+      <a href="#/units/terran">Terranie</a>
       <ul class="units">
-        <li ng-repeat="unit in units | filter:query | orderBy:orderProp"
+        <li ng-repeat="unit in unitsPro | filter:query | orderBy:orderProp"
             class="thumbnail units-listing">
           <a href="#/units/{{unit.id}}" class="thumb"><img ng-src="{{unit.imageUrl}}"></a>
           <a href="#/units/{{unit.id}}">{{unit.name}}</a>

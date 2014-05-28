@@ -1,0 +1,9 @@
+[
+    {
+        "age": 0,
+        "id": "marine",
+        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "name": "Marine",
+        "snippet": "Marine have gun, its basic unit form terrans"
+    }
+]

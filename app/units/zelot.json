@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "Entaro tasadar",
+    "about": {
+        "race": "Protoss",
+        "type": "unit"
+    },
+    "lifepoints": "100",
+    "cost":{
+      "minerals": "100",
+      "vespan": "0"
+    },
+    "id": "zelot",
+    "images": ["img/starcraft/units/zerg/roach.jpg"],
+    "name": "Zelot"
+}
