@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "E",
+    "about": {
+        "race": "Protoss",
+        "type": "unit"
+    },
+    "lifepoints": "100",
+    "cost":{
+      "minerals": "100",
+      "vespan": "0"
+    },
+    "id": "immortal",
+    "images": ["img/starcraft/units/zerg/roach.jpg"],
+    "name": "Immortal"
+}

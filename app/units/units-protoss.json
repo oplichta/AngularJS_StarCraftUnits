@@ -2,8 +2,50 @@
     {
         "age": 0,
         "id": "zelot",
-        "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+        "imageUrl": "img/starcraft/units/protoss/zelot.jpg",
         "name": "Zelot",
         "snippet": "Entaro tassadar"
+    },
+    {
+        "age": 1,
+        "id": "colosus",
+        "imageUrl": "img/starcraft/units/protoss/colossus.jpg",
+        "name": "Colossus",
+        "snippet": "Can go up on clifs"
+    },
+    {
+        "age": 2,
+        "id": "immortal",
+        "imageUrl": "img/starcraft/units/protoss/immortal.jpg",
+        "name": "Immortal",
+        "snippet": "Have shield"
+    },
+    {
+        "age": 3,
+        "id": "archon",
+        "imageUrl": "img/starcraft/units/protoss/archon.jpg",
+        "name": "Aarchon",
+        "snippet": "strong vs bio unit "
+    },
+    {
+        "age": 4,
+        "id": "voidray",
+        "imageUrl": "img/starcraft/units/protoss/voidray.jpg",
+        "name": "Voidray",
+        "snippet": "Have shield"
+    },
+    {
+        "age": 5,
+        "id": "tempest",
+        "imageUrl": "img/starcraft/units/protoss/tempest.jpg",
+        "name": "Tempest",
+        "snippet": "Have shield"
+    },
+    {
+        "age": 6,
+        "id": "oracle",
+        "imageUrl": "img/starcraft/units/protoss/oracle.jpg",
+        "name": "Oracle",
+        "snippet": "Support unit"
     }
 ]

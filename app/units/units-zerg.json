@@ -5,5 +5,40 @@
         "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
         "name": "Zergling",
         "snippet": "Its superfast, basic unit form swarm"
+    },
+    {
+        "age": 1,
+        "id": "roach",
+        "imageUrl": "img/starcraft/units/zerg/roach.jpg",
+        "name": "Roach",
+        "snippet": "Its superfast, basic unit form swarm"
+    },
+    {
+        "age": 2,
+        "id": "hydralisk",
+        "imageUrl": "img/starcraft/units/zerg/hydralisk.jpg",
+        "name": "Hydralisk",
+        "snippet": "Its superfast, basic unit form swarm"
+    },
+    {
+        "age": 3,
+        "id": "mutalisk",
+        "imageUrl": "img/starcraft/units/zerg/mutalisk.jpg",
+        "name": "Mutalisk",
+        "snippet": "Fast flying unit"
+    },
+    {
+        "age": 4,
+        "id": "ultralisk",
+        "imageUrl": "img/starcraft/units/zerg/ultralisk.jpg",
+        "name": "Ultralisk",
+        "snippet": "The haviest unit in zerg arsenal"
+    },
+    {
+        "age": 5,
+        "id": "infestor",
+        "imageUrl": "img/starcraft/units/zerg/infestor.jpg",
+        "name": "Infestor",
+        "snippet": "Master of infestation"
     }
 ]
