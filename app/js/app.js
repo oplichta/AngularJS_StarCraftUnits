@@ -33,6 +33,10 @@ starcraftApp.config(['$routeProvider',
         templateUrl: 'partials/unit-detail.html',
         controller: 'UnitDetailCtrl'
       }).
+      when('/add', {
+        templateUrl: 'partials/add-unit.html',
+        controller: 'AddUnitCtrl'
+      }).
       otherwise({
         redirectTo: '/units'
       });

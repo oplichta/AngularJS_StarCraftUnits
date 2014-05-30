@@ -5,10 +5,10 @@ body {
 }
 
 
-.unit-images {
+.units-images {
   background-color: white;
-  width: 450px;
-  height: 450px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   position: relative;
   float: left;
@@ -16,6 +16,10 @@ body {
 
 .units {
   list-style: none;
+}
+.obrazek{
+  height: 100px;
+  width: 100px;
 }
 
 .thumb {
@@ -33,7 +37,7 @@ body {
 }
 
 /** Detail View **/
-img.unit {
+img.units {
   float: left;
   margin-right: 3em;
   margin-bottom: 2em;
@@ -44,30 +48,30 @@ img.unit {
   display: none;
 }
 
-img.unit:first-child {
+img.units:first-child {
   display: block;
 }
 
 
-ul.unit-thumbs {
+ul.units-thumbs {
   margin: 0;
   list-style: none;
 }
 
-ul.unit-thumbs li {
+ul.units-thumbs li {
   border: 1px solid black;
   display: inline-block;
   margin: 1em;
   background-color: white;
 }
 
-ul.unit-thumbs img {
+ul.units-thumbs img {
   height: 100px;
   width: 100px;
   padding: 1em;
 }
 
-ul.unit-thumbs img:hover {
+ul.units-thumbs img:hover {
   cursor: pointer;
 }
 

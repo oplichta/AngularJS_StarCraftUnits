@@ -24,6 +24,11 @@ starcraftControllers.controller('UnitListCtrlTerran', ['$scope', 'UnitsTerran',
       $scope.unitsTer= UnitsTerran.query();
       $scope.orderProp = 'age';
   }]);
+  starcraftControllers.controller('AddUnitCtrl', ['$scope', 'Units',
+      function($scope, Units) {
+        $scope.unitsT= Units.query();
+        
+    }]);
 
 
 starcraftControllers.controller('UnitDetailCtrl', ['$scope', '$routeParams', 'Units',

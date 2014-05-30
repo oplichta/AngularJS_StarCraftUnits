@@ -13,14 +13,16 @@
     </div>
     <div class="col-md-10">
       <!--Body content-->
-      <a href="#/units">Witaj</a>
-      <a href="#/units/zerg">Zergi</a>
-      <a href="#/units/protoss">Protosi</a>
-      <b><a href="#/units/terran">Terranie</a></b>
+      <ul class="nav nav-pills">
+        <li><a href="#/units">Home</a></li>
+        <li><a href="#/units/zerg">Zergs</a></li>
+        <li ><a href="#/units/protoss">Protoss</a></li>
+        <li class="active"><a href="#/units/terran">Terrans</a></li>
+      </ul>
       <ul class="units">
         <li ng-repeat="unit in unitsTer | filter:query | orderBy:orderProp"
             class="thumbnail units-listing">
-          <a href="#/units/{{unit.id}}" class="thumb"><img ng-src="{{unit.imageUrl}}"></a>
+          <a href="#/units/{{unit.id}}" class="thumb"><img class="obrazek" ng-src="{{unit.imageUrl}}"></a>
           <a href="#/units/{{unit.id}}">{{unit.name}}</a>
           <p>{{unit.snippet}}</p>
         </li>

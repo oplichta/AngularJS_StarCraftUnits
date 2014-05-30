@@ -15,19 +15,25 @@
       <!--Body content-->
       <ul class="nav nav-pills">
         <li><a href="#/units">Home</a></li>
-        <li class="active"><a href="#/units/zerg">Zergs</a></li>
-        <li><a href="#/units/protoss">Protoss</a></li>
+        <li><a href="#/units/zerg">Zergs</a></li>
+        <li class="active"><a href="#/units/protoss">Protoss</a></li>
         <li><a href="#/units/terran">Terrans</a></li>
       </ul>
+
+       name<input type="text" class="form-control">
+       race<input type="text" class="form-control">
+       descripton<input type="text" class="form-control">
+       cost<input type="text" class="form-control">
+
+
       <ul class="units">
-        <li ng-repeat="unit in unitsZerg | filter:query | orderBy:orderProp"
+        <li ng-repeat="unit in unitsPro | filter:query | orderBy:orderProp"
             class="thumbnail units-listing">
           <a href="#/units/{{unit.id}}" class="thumb"><img class="obrazek" ng-src="{{unit.imageUrl}}"></a>
           <a href="#/units/{{unit.id}}">{{unit.name}}</a>
           <p>{{unit.snippet}}</p>
         </li>
       </ul>
-
     </div>
   </div>
 </div>
