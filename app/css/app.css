@@ -5,10 +5,10 @@ body {
 }
 
 
-.units-images {
+.unit-images {
   background-color: white;
-  width: 100px;
-  height: 100px;
+  width: 450px;
+  height: 450px;
   overflow: hidden;
   position: relative;
   float: left;
@@ -37,7 +37,7 @@ body {
 }
 
 /** Detail View **/
-img.units {
+img.unit {
   float: left;
   margin-right: 3em;
   margin-bottom: 2em;
@@ -48,30 +48,30 @@ img.units {
   display: none;
 }
 
-img.units:first-child {
+img.unit:first-child {
   display: block;
 }
 
 
-ul.units-thumbs {
+ul.unit-thumbs {
   margin: 0;
   list-style: none;
 }
 
-ul.units-thumbs li {
+ul.unit-thumbs li {
   border: 1px solid black;
   display: inline-block;
   margin: 1em;
   background-color: white;
 }
 
-ul.units-thumbs img {
+ul.unit-thumbs img {
   height: 100px;
   width: 100px;
   padding: 1em;
 }
 
-ul.units-thumbs img:hover {
+ul.unit-thumbs img:hover {
   cursor: pointer;
 }
 

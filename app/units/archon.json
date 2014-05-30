@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "Although their abilities are already impressive, High Templar and Dark Templar can wield even greater might by laying down their lives to merge their souls and form Archons. These unified Protoss spirits radiate incalculable power, unleashing psionic barrages against cowering enemy forces both in the air and on the ground. With the reunification of the Protoss race, any pair of High Templar or Dark Templar, or even one of each, can be fused together. The Protoss are loath to sacrifice their loyal warriors, but those who make this final commitment are forever honored in the memories of their people.",
+    "about": {
+        "race": "Protoss",
+        "type": "unit"
+    },
+    "lifepoints": "360",
+    "cost":{
+      "minerals": "0",
+      "vespan": "0"
+    },
+    "id": "archon",
+    "images": ["img/starcraft/units/protoss/archon.jpg"],
+    "name": "Archon"
+}

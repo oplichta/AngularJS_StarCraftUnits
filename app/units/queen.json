@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "During the first Zerg invasion, Queens were able to spawn a variety of parasites that infested Terran structures to create suicide troops under the Overmind’s control. In the aftermath of the Brood War, the new Queens are tougher creatures who now play a limited command role nurturing Zerg nest sites. Their new morphology hints at the incorporation of Terran or Protoss DNA, or perhaps even the Zerg-altered genes of the Queen of Blades herself. This evolution implies that a widespread change is taking place within the Zerg hierarchy, a redistribution of power that will make the Zerg even more difficult to combat.",
+    "about": {
+        "race": "Zerg",
+        "type": "unit"
+    },
+    "lifepoints": "150",
+    "cost":{
+      "minerals": "150",
+      "vespan": "0"
+    },
+    "id": "Queen",
+    "images": ["img/starcraft/units/zerg/queen.jpg"],
+    "name": "Queen"
+}

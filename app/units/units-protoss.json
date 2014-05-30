@@ -1,14 +1,14 @@
 [
     {
         "age": 0,
-        "id": "zelot",
-        "imageUrl": "img/starcraft/units/protoss/zelot.jpg",
-        "name": "Zelot",
+        "id": "zealot",
+        "imageUrl": "img/starcraft/units/protoss/zealot.jpg",
+        "name": "Zealot",
         "snippet": "Entaro tassadar"
     },
     {
         "age": 1,
-        "id": "colosus",
+        "id": "colossus",
         "imageUrl": "img/starcraft/units/protoss/colossus.jpg",
         "name": "Colossus",
         "snippet": "Can go up on clifs"

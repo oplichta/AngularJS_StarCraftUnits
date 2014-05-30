@@ -1,0 +1,15 @@
+{
+    "additionalFeatures": "Marines are the first line of defense for Terran planets in the Koprulu sector. Under the old Confederacy, the majority of Marines were criminals or rebels who had undergone mandatory neural resocialization to ensure their absolute loyalty. This practice has been reportedly scaled back, but it remains common due to insufficient volunteers to serve in the military. The heavy armor worn by Marines is effective against small-arms fire and provides them with full life support and NBC (Nuclear/Biological/Chemical) shielding for operation in deep space and other hostile environments. Marines are armed with C-14 Impaler Gauss Rifles that fire 8mm metal spikes at hypersonic speeds.",
+    "about": {
+        "race": "Terran",
+        "type": "unit"
+    },
+    "lifepoints": "45",
+    "cost":{
+      "minerals": "50",
+      "vespan": "0"
+    },
+    "id": "marine",
+    "images": ["img/starcraft/units/terran/marine.jpg"],
+    "name": "Marine"
+}

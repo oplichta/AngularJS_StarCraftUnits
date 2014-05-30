@@ -40,5 +40,12 @@
         "imageUrl": "img/starcraft/units/zerg/infestor.jpg",
         "name": "Infestor",
         "snippet": "Master of infestation"
+    },
+    {
+        "age": 6,
+        "id": "queen",
+        "imageUrl": "img/starcraft/units/zerg/queen.jpg",
+        "name": "Queen",
+        "snippet": "Mother of swarm"
     }
 ]
