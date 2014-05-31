@@ -1,13 +1,11 @@
 'use strict';
 
-/* App Module */
-
 var starcraftApp = angular.module('starcraftApp', [
   'ngRoute',
   'starcraftAnimations',
   'starcraftControllers',
   'starcraftFilters',
-  'starcraftServices'
+  'starcraftServices',
 ]);
 
 starcraftApp.config(['$routeProvider',
@@ -36,8 +34,11 @@ starcraftApp.config(['$routeProvider',
       when('/add', {
         templateUrl: 'partials/add-unit.html',
         controller: 'AddUnitCtrl'
-      }).
-      otherwise({
+      })
+      .when('/user-list', {templateUrl: 'partials/user-list.html', controller: 'UserListCtrl'})
+      .when('/user-detail/:id', {templateUrl: 'partials/user-detail.html', controller: 'UserDetailCtrl'})
+      .when('/user-creation', {templateUrl: 'partials/user-creation.html', controller: 'UserCreationCtrl'})
+      .otherwise({
         redirectTo: '/units'
       });
   }]);
