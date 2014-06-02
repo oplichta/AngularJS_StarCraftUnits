@@ -33,7 +33,7 @@ starcraftApp.config(['$routeProvider',
       }).
       when('/add', {
         templateUrl: 'partials/add-unit.html',
-        controller: 'AddUnitCtrl'
+        controller: 'UnitListCtrl'
       })
       .when('/user-list', {templateUrl: 'partials/user-list.html', controller: 'UserListCtrl'})
       .when('/user-detail/:id', {templateUrl: 'partials/user-detail.html', controller: 'UserDetailCtrl'})

@@ -20,7 +20,7 @@
         <li><a href="#/units/terran">Terrans</a></li>
       </ul>
       <ul class="units">
-        <li ng-repeat="unit in unitsPro | filter:query | orderBy:orderProp"
+        <li ng-repeat="unit in unitsProtoss | filter:query | orderBy:orderProp"
             class="thumbnail units-listing">
           <a href="#/units/{{unit.id}}" class="thumb"><img class="obrazek" ng-src="{{unit.imageUrl}}"></a>
           <a href="#/units/{{unit.id}}">{{unit.name}}</a>

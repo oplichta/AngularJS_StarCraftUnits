@@ -15,8 +15,8 @@ starcraftServices.factory('socket',['$rootScope', function ($rootScope) {
         });
       });
     },
-    emit: function (eventName, data, callback) {
-      socket.emit(eventName, data, function () {
+    emit: function (eventName, dataUnits, dataZerg, dataTerran, dataProtoss,callback) {
+      socket.emit(eventName, dataUnits, dataZerg, dataTerran, dataProtoss , function () {
         var args = arguments;
         $rootScope.$apply(function () {
           if (callback) {
@@ -30,15 +30,10 @@ starcraftServices.factory('socket',['$rootScope', function ($rootScope) {
 
 starcraftServices.factory('Units', ['$resource',
   function($resource){
-    return $resource('units/:unitId.json', {}, {
-      query: {method:'GET', params:{unitId:'units'}, isArray:true}
-    });
-  }]);
-
-starcraftServices.factory('UnitsProtoss', ['$resource',
-  function($resource){
-    return $resource('units/:unitId.json', {}, {
-      query: {method:'GET', params:{unitId:'units-protoss'}, isArray:true}
+    return $resource('units/units.json', {}, {
+      // query: {method:'GET', params:{unitId:'units'}, isArray:true}
+      query: { method: 'GET', isArray: true },
+      create: { method: 'POST' }
     });
   }]);
 
@@ -55,13 +50,21 @@ starcraftServices.factory('UnitsTerran', ['$resource',
       query: {method:'GET', params:{unitId:'units-terran'}, isArray:true}
     });
   }]);
+
+starcraftServices.factory('UnitsProtoss', ['$resource',
+    function($resource){
+      return $resource('units/:unitId.json', {}, {
+        query: {method:'GET', params:{unitId:'units-protoss'}, isArray:true}
+      });
+    }]);
+
 //********************************
-  starcraftServices.factory('UsersFactory', function ($resource) {
-    return $resource( 'units/users.json', {}, {
-        query: { method: 'GET', isArray: true },
-        create: { method: 'POST' }
-    })
-});
+//   starcraftServices.factory('UsersFactory', function ($resource) {
+//     return $resource( 'units/users.json', {}, {
+//         query: { method: 'GET', isArray: true },
+//         create: { method: 'POST' }
+//     })
+// });
 
 starcraftServices.factory('UserFactory', function ($resource) {
     return $resource('units/users/:id', {}, {
