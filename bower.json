@@ -1,8 +1,7 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "StarCraft Units",
+  "description": "StarCraft Units gallery",
+  "version": "0.0.3",
   "license": "MIT",
   "private": true,
   "dependencies": {
