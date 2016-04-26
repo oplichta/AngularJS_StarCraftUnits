@@ -8,8 +8,7 @@ var starcraftApp = angular.module('starcraftApp', [
   'starcraftServices',
 ]);
 
-starcraftApp.config(['$routeProvider',
-  function($routeProvider) {
+starcraftApp.config(function($routeProvider) {
     $routeProvider.
       when('/units', {
         templateUrl: 'partials/unit-list.html',
@@ -35,10 +34,7 @@ starcraftApp.config(['$routeProvider',
         templateUrl: 'partials/add-unit.html',
         controller: 'UnitListCtrl'
       })
-      .when('/user-list', {templateUrl: 'partials/user-list.html', controller: 'UserListCtrl'})
-      .when('/user-detail/:id', {templateUrl: 'partials/user-detail.html', controller: 'UserDetailCtrl'})
-      .when('/user-creation', {templateUrl: 'partials/user-creation.html', controller: 'UserCreationCtrl'})
       .otherwise({
         redirectTo: '/units'
       });
-  }]);
+  });
