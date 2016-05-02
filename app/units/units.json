@@ -1,120 +1,133 @@
-[
-    {
-        "age": 2,
-        "id": "hydralisk",
-        "imageUrl": "img/starcraft/units/zerg/hydralisk.jpg",
-        "name": "Hydralisk",
-        "snippet": "Its superpowerful and awsame ;)"
-    },
-    {
-        "age": 3,
-        "id": "infestor",
-        "imageUrl": "img/starcraft/units/zerg/infestor.jpg",
-        "name": "Infestor",
-        "snippet": "Its superpowerful and awsame ;)"
-    },
-    {
-        "age": 4,
-        "id": "queen",
-        "imageUrl": "img/starcraft/units/zerg/queen.jpg",
-        "name": "Queen",
-        "snippet": "Its mother of zergs"
-    },
-    {
-        "age": 5,
-        "id": "mutalisk",
-        "imageUrl": "img/starcraft/units/zerg/mutalisk.jpg",
-        "name": "Mutalisk",
-        "snippet": "Fast flying unit"
-    },
-    {
-        "age": 6,
-        "id": "ultralisk",
-        "imageUrl": "img/starcraft/units/zerg/ultralisk.jpg",
-        "name": "Ultralisk",
-        "snippet": "The haviest unit in zerg arsenal"
-    },
-    {
-          "age": 7,
-          "id": "marine",
-          "imageUrl": "img/starcraft/units/terran/marine.jpg",
-          "name": "Marine",
-          "snippet": "Marine have gun, its basic unit form terrans"
-      },
-      {
-          "age": 8,
-          "id": "marauder",
-          "imageUrl": "img/starcraft/units/terran/marauder.jpg",
-          "name": "Marauder",
-          "snippet": "Marine have gun, its basic unit form terrans"
-      },
-      {
-          "age": 9,
-          "id": "medivac",
-          "imageUrl": "img/starcraft/units/terran/medivac.jpg",
-          "name": "Medivac",
-          "snippet": "Marine have gun, its basic unit form terrans"
-      },
-      {
-          "age": 10,
-          "id": "thor",
-          "imageUrl": "img/starcraft/units/terran/thor.jpg",
-          "name": "Thor",
-          "snippet": "Marine have gun, its basic unit form terrans"
-      },
-      {
-          "age": 11,
-          "id": "banshee",
-          "imageUrl": "img/starcraft/units/terran/banshee.jpg",
-          "name": "Banshee",
-          "snippet": "Marine have gun, its basic unit form terrans"
-      },{
-          "age": 12,
-          "id": "zealot",
-          "imageUrl": "img/starcraft/units/protoss/zealot.jpg",
-          "name": "Zealot",
-          "snippet": "Entaro tassadar"
-      },
-      {
-          "age": 13,
-          "id": "colossus",
-          "imageUrl": "img/starcraft/units/protoss/colossus.jpg",
-          "name": "Colossus",
-          "snippet": "Can go up on clifs"
-      },
-      {
-          "age": 14,
-          "id": "immortal",
-          "imageUrl": "img/starcraft/units/protoss/immortal.jpg",
-          "name": "Immortal",
-          "snippet": "Have shield"
-      },
-      {
-          "age": 15,
-          "id": "archon",
-          "imageUrl": "img/starcraft/units/protoss/archon.jpg",
-          "name": "Aarchon",
-          "snippet": "strong vs bio unit "
-      },
-      {
-          "age": 16,
-          "id": "voidray",
-          "imageUrl": "img/starcraft/units/protoss/voidray.jpg",
-          "name": "Voidray",
-          "snippet": "Have shield"
-      },
-      {
-          "age": 17,
-          "id": "tempest",
-          "imageUrl": "img/starcraft/units/protoss/tempest.jpg",
-          "name": "Tempest",
-          "snippet": "Have shield"
-      },
-      {
-          "age": 18,
-          "id": "oracle",
-          "imageUrl": "img/starcraft/units/protoss/oracle.jpg",
-          "name": "Oracle",
-          "snippet": "Support unit"
-      }
+[{
+  "age": 0,
+  "id": "zergling",
+  "imageUrl": "img/starcraft/units/zerg/zergling.jpg",
+  "name": "Zergling",
+  "snippet": "Its superfast, basic unit form swarm"
+},
+{
+  "age": 1,
+  "id": "roach",
+  "imageUrl": "img/starcraft/units/zerg/roach.jpg",
+  "name": "Roach",
+  "snippet": "Its superfast, basic unit form swarm"
+},
+{
+  "age": 2,
+  "id": "hydralisk",
+  "imageUrl": "img/starcraft/units/zerg/hydralisk.jpg",
+  "name": "Hydralisk",
+  "snippet": "Its superpowerful and awsame ;)"
+},
+{
+  "age": 3,
+  "id": "infestor",
+  "imageUrl": "img/starcraft/units/zerg/infestor.jpg",
+  "name": "Infestor",
+  "snippet": "Its superpowerful and awsame ;)"
+},
+{
+  "age": 4,
+  "id": "queen",
+  "imageUrl": "img/starcraft/units/zerg/queen.jpg",
+  "name": "Queen",
+  "snippet": "Its mother of zergs"
+},
+{
+  "age": 5,
+  "id": "mutalisk",
+  "imageUrl": "img/starcraft/units/zerg/mutalisk.jpg",
+  "name": "Mutalisk",
+  "snippet": "Fast flying unit"
+},
+{
+  "age": 6,
+  "id": "ultralisk",
+  "imageUrl": "img/starcraft/units/zerg/ultralisk.jpg",
+  "name": "Ultralisk",
+  "snippet": "The haviest unit in zerg arsenal"
+},
+{
+    "age": 7,
+    "id": "marine",
+    "imageUrl": "img/starcraft/units/terran/marine.jpg",
+    "name": "Marine",
+    "snippet": "Marine have gun, its basic unit form terrans"
+},
+{
+    "age": 8,
+    "id": "marauder",
+    "imageUrl": "img/starcraft/units/terran/marauder.jpg",
+    "name": "Marauder",
+    "snippet": "Marine have gun, its basic unit form terrans"
+},
+{
+    "age": 9,
+    "id": "medivac",
+    "imageUrl": "img/starcraft/units/terran/medivac.jpg",
+    "name": "Medivac",
+    "snippet": "Marine have gun, its basic unit form terrans"
+},
+{
+    "age": 10,
+    "id": "thor",
+    "imageUrl": "img/starcraft/units/terran/thor.jpg",
+    "name": "Thor",
+    "snippet": "Marine have gun, its basic unit form terrans"
+},
+{
+    "age": 11,
+    "id": "banshee",
+    "imageUrl": "img/starcraft/units/terran/banshee.jpg",
+    "name": "Banshee",
+    "snippet": "Marine have gun, its basic unit form terrans"
+},{
+    "age": 12,
+    "id": "zealot",
+    "imageUrl": "img/starcraft/units/protoss/zealot.jpg",
+    "name": "Zealot",
+    "snippet": "Entaro tassadar"
+},
+{
+    "age": 13,
+    "id": "colossus",
+    "imageUrl": "img/starcraft/units/protoss/colossus.jpg",
+    "name": "Colossus",
+    "snippet": "Can go up on clifs"
+},
+{
+    "age": 14,
+    "id": "immortal",
+    "imageUrl": "img/starcraft/units/protoss/immortal.jpg",
+    "name": "Immortal",
+    "snippet": "Have shield"
+},
+{
+    "age": 15,
+    "id": "archon",
+    "imageUrl": "img/starcraft/units/protoss/archon.jpg",
+    "name": "Aarchon",
+    "snippet": "strong vs bio unit "
+},
+{
+    "age": 16,
+    "id": "voidray",
+    "imageUrl": "img/starcraft/units/protoss/voidray.jpg",
+    "name": "Voidray",
+    "snippet": "Have shield"
+},
+{
+    "age": 17,
+    "id": "tempest",
+    "imageUrl": "img/starcraft/units/protoss/tempest.jpg",
+    "name": "Tempest",
+    "snippet": "Have shield"
+},
+{
+    "age": 18,
+    "id": "oracle",
+    "imageUrl": "img/starcraft/units/protoss/oracle.jpg",
+    "name": "Oracle",
+    "snippet": "Support unit"
+}
 ]

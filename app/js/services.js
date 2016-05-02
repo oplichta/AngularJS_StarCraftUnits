@@ -12,8 +12,8 @@ starcraftServices.factory('socket',['$rootScope', function ($rootScope) {
         });
       });
     },
-    emit: function (eventName, dataUnits, dataZerg, dataTerran, dataProtoss,callback) {
-      socket.emit(eventName, dataUnits, dataZerg, dataTerran, dataProtoss , function () {
+    emit: function (eventName, dataUnits,callback) {
+      socket.emit(eventName, dataUnits, function () {
         var args = arguments;
         $rootScope.$apply(function () {
           if (callback) {
@@ -34,23 +34,9 @@ starcraftServices.factory('Units', ['$resource',
     });
   }]);
 
-starcraftServices.factory('UnitsZerg', ['$resource',
-  function($resource){
-    return $resource('units/:unitId.json', {}, {
-      query: {method:'GET', params:{unitId:'units-zerg'}, isArray:true}
-    });
-  }]);
-
-starcraftServices.factory('UnitsTerran', ['$resource',
-  function($resource){
-    return $resource('units/:unitId.json', {}, {
-      query: {method:'GET', params:{unitId:'units-terran'}, isArray:true}
-    });
-  }]);
-
-starcraftServices.factory('UnitsProtoss', ['$resource',
-    function($resource){
-      return $resource('units/:unitId.json', {}, {
-        query: {method:'GET', params:{unitId:'units-protoss'}, isArray:true}
-      });
-    }]);
+// starcraftServices.factory('UnitsZerg', ['$resource',
+//   function($resource){
+//     return $resource('units/:unitId.json', {}, {
+//       query: {method:'GET', params:{unitId:'units-zerg'}, isArray:true}
+//     });
+//   }]);

@@ -1,0 +1,22 @@
+<div class="col-md-10">
+  <!--Body content-->
+  <ul class="nav nav-pills">
+    <li ng-class="{ active:tab.isSet(1) }">
+      <a href ng-click="tab.setTab(1)">Home</a>
+    </li>
+    <li ng-class="{ active:tab.isSet(2) }">
+      <a href ng-click="tab.setTab(2)">Zerg</a>
+    </li>
+    <li ng-class="{ active:tab.isSet(3) }">
+      <a href ng-click="tab.setTab(3)">Protoss</a>
+    </li>
+    <li ng-class="{ active:tab.isSet(4) }">
+      <a href ng-click="tab.setTab(4)">Terrans</a>
+    </li>
+  </ul>
+
+  <unit-list-all  ng-show="tab.isSet(1)"></unit-list-all>
+  <unit-list-zerg  ng-show="tab.isSet(2)"></unit-list-zerg>
+  <unit-list-protoss  ng-show="tab.isSet(3)"></unit-list-protoss>
+  <unit-list-terran  ng-show="tab.isSet(4)"></unit-list-terran>
+</div>

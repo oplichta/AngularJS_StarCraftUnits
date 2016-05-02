@@ -10,27 +10,8 @@
         <option value="race">Race</option>
       </select>
     </br>
-
-    <a  type="button" class="btn btn-default" href="#/add">Add new</a>
+    <!-- <a  type="button" class="btn btn-default" href="#/add">Add new</a> -->
     </div>
-    <div class="col-md-10">
-      <!--Body content-->
-      <ul class="nav nav-pills">
-        <li class="active"><a href="#/units">Home</a></li>
-        <li><a href="#/units/zerg">Zergs</a></li>
-        <li><a href="#/units/protoss">Protoss</a></li>
-        <li><a href="#/units/terran">Terrans</a></li>
-      </ul>
-      <ul class="units">
-        <li ng-repeat="unit in units | filter:query | orderBy:orderProp"
-            class="thumbnail units-listing">
-          <a href="#/units/{{unit.id}}" class="thumb"><img class="obrazek" ng-src="{{unit.imageUrl}}"></a>
-          <a href="#/units/{{unit.id}}">{{unit.name}}</a>
-          <p>{{unit.snippet}}</p>
-          <a ng-click="editUnit(unit.id)" class="btn btn-small btn-primary">Edit</a>
-          <a ng-click="deleteUnit(unit.id)" class="btn btn-small btn-danger">Delete</a>
-        </li>
-      </ul>
-    </div>
+    <units-tabs></unit-tabs>
   </div>
 </div>

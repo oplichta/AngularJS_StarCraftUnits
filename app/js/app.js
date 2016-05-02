@@ -6,6 +6,7 @@ var starcraftApp = angular.module('starcraftApp', [
   'starcraftControllers',
   'starcraftFilters',
   'starcraftServices',
+  'starcraftDirectives'
 ]);
 
 starcraftApp.config(function($routeProvider) {
