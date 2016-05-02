@@ -27,16 +27,9 @@ starcraftServices.factory('socket',['$rootScope', function ($rootScope) {
 
 starcraftServices.factory('Units', ['$resource',
   function($resource){
-    return $resource('units/units.json', {}, {
-      // query: {method:'GET', params:{unitId:'units'}, isArray:true}
+    return $resource('units/:id.json', {}, {
+      // query: {method:'GET', params:{id:'units'}, isArray:true},
       query: { method: 'GET', isArray: true },
       create: { method: 'POST' }
     });
   }]);
-
-// starcraftServices.factory('UnitsZerg', ['$resource',
-//   function($resource){
-//     return $resource('units/:unitId.json', {}, {
-//       query: {method:'GET', params:{unitId:'units-zerg'}, isArray:true}
-//     });
-//   }]);

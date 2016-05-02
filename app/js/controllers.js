@@ -14,9 +14,9 @@ starcraftControllers.controller('UnitListCtrl', ['$scope', 'Units', 'socket',
     $scope.orderProp = 'age';
   }]);
 
-starcraftControllers.controller('UnitDetailCtrl', ['$scope', '$routeParams', 'UnitsZerg', '$location',
-  function($scope, $routeParams, UnitsZerg) {
-    $scope.unit = UnitsZerg.get({unitId: $routeParams.unitId}, function(unit) {
+starcraftControllers.controller('UnitDetailCtrl', ['$scope', '$routeParams', 'Units', '$location',
+  function($scope, $routeParams, Units) {
+    $scope.unit = Units.get({id: $routeParams.id}, function(unit) {
       $scope.mainImageUrl = unit.images[0];
     });
 
